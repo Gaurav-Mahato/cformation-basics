@@ -6,4 +6,4 @@ Resources:
       ImageId: ami-03bb6d83c60fc5f7c
       Tags:
         - Key: "Name"
-          Value: "MyFirstInstance"
+          Value: !Join ["-",[my,first,of,cformation]]
